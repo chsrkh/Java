@@ -1,0 +1,16 @@
+public class Sub2nums 
+{
+    public static void main(String[] args)
+    {
+        int a=10;
+        int b=20;
+        int c=subtwonums(a, b);
+        System.out.println("The sub of two numbers: "+c);
+    }
+    public static int subtwonums(int m, int n)
+    {
+        int s=m-n;
+        return s;
+    }
+    
+}
