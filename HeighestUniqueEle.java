@@ -15,24 +15,50 @@ public class HeighestUniqueEle
     }
     public static int heighestUniqueEle(int a[])
     {
-        int ele=0;
-        int j=0;
+        int j=0,ele=0;
         int n[]=new int[a.length];
         for(int i=0;i<a.length;i++)
         {
             int c=0;
-            for(int k=i+1;j<a.length;j++)
+            for(int k=i+1;k<a.length;k++)
             {
-                if(a[i]==a[j])
-                {
-                       c++;
-                }
-                n[j] = c;
-
+                if(a[i]==a[k])
+                c++;
             }
+            n[j++] = c;
+            
+        }
+            int m[] = new int[j+1];
+            int x=0;
+            for(int k=0;k<j;k++)
+            {   
+                int count=0;
+                for(int i=k+1;i<n.length;i++)
+                {
+                    if (n[k]==n[i])
+                    count++;
+                }
+                if (count==0)
+                m[x++]=n[k];
+            }
+            int max=m[0];
+            for (int i=1;i<m.length;i++)
+            {
+                if(m[i]>=max)
+                max=m[i];
+            }
+            for (int i=0;i<a.length;i++)
+            {
+                int c=0;
+                for (int k=0;k<a.length;k++)
+                {
+                    if(a[i]==a[k])
+                    c++;
+                }
+                if (c==max)
 
-
-
+                ele=a[i];
+            }
 
 
 
