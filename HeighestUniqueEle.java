@@ -17,10 +17,17 @@ public class HeighestUniqueEle
     {
         int ele=0;
         int j=0;
+        int n[]=new int[a.length];
         for(int i=0;i<a.length;i++)
         {
-            for(int k=0;j<a.length;j++)
+            int c=0;
+            for(int k=i+1;j<a.length;j++)
             {
+                if(a[i]==a[j])
+                {
+                       c++;
+                }
+                n[j] = c;
 
             }
 
