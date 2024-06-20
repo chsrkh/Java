@@ -15,11 +15,11 @@ public class PositiveOrOdd
     {
         if(x>0)
         {
-            return "Even";
+            return "Positive";
         }
         else
         {
-            return "Odd";
+            return "Negative";
         }
     }
     
