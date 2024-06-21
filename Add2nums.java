@@ -1,3 +1,4 @@
+// Program to perfrom add of two numbers
 public class Add2nums 
 {
     public static void main(String[] args)
