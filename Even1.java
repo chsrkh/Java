@@ -1,3 +1,4 @@
+// Program to check given number is even or odd without using % operator 
 package Java;
 import java.util.Scanner;
 // Program to check even or odd without % operator
