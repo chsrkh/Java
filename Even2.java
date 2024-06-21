@@ -1,4 +1,4 @@
-package Java;
+// Program to check even or odd without if else statement
 import java.util.Scanner;
 // Program to check even or odd with the conditional operator
 public class Even2
