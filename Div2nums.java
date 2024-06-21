@@ -1,3 +1,4 @@
+// Program to perform division of two numbers
 public class Div2nums 
 {
     public static void main(String[] args)
