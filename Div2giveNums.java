@@ -1,3 +1,4 @@
+// Program to perform division of user given two numbers
 import java.util.Scanner;
 public class Div2givenNums 
 {
