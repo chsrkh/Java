@@ -1,4 +1,4 @@
-// Program to perfrom addition of two Numbers
+// Program to perfrom addition of user given two Numbers
 import java.util.Scanner;
 public class Add2givenNums 
 {
