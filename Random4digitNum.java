@@ -1,3 +1,4 @@
+//Program to return a 4 digit random number
 public class RandomNum 
 {
     public static void main(String[] args)
