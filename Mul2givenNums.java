@@ -1,3 +1,4 @@
+//Program to return product of user given two numbers.
 import java.util.Scanner;
 public class Mul2givenNums 
 {
