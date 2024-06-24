@@ -1,3 +1,4 @@
+// Program to print multiple lines of text by using a single output statement.
 public class MulLineText 
 {
     public static void main(String[] args)
