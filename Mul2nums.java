@@ -1,3 +1,4 @@
+// Program to return product of the two numbers.
 public class Mul2nums 
 {
     public static void main(String[] args)
