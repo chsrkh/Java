@@ -1,5 +1,6 @@
+// Program to return the area of triangle for user given length and breadth.
 import java.util.Scanner;
-public class TraingleArea 
+public class TriangleArea 
 {
     public static void main(String[] args)
     {
