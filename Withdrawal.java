@@ -1,4 +1,4 @@
-// Program to perfrom simple withdrawal operation 
+// Program to perfrom simple withdrawal operation for the user given PIN, and amount
 import java.util.Scanner;
 public class Withdrawal 
 {
