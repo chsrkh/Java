@@ -1,3 +1,4 @@
+// Program to return subraction value of user given two numbers
 import java.util.Scanner;
 public class Sub2givenNums 
 {
