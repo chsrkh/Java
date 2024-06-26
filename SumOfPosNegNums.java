@@ -1,4 +1,4 @@
-// Program to find sum of positive nums and sum of negitive nums in the given range
+// Program to find sum of positive nums and sum of negitive nums in the user given range
 import java.util.Scanner;
 public class SumofNegPosNums 
 {
