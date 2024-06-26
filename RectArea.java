@@ -1,3 +1,4 @@
+// Program to return area of rectangle for user given length and breadth.
 import java.util.Scanner;
 public class RectArea 
 {
