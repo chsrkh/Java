@@ -1,3 +1,4 @@
+//Program to find and print roots of quadratic equation for the user given a,b,c values
 import java.util.Scanner;
 public class RootsOfQuadratcEqn 
 {
