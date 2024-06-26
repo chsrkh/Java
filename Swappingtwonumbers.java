@@ -1,3 +1,4 @@
+// Program to swap two given numbers with the help of the third variable.
 import java.util.Scanner;
 public class Swaptwonums
 {
