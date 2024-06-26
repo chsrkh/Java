@@ -1,3 +1,4 @@
+// Program to print single line text with mutiple output statements.
 public class SingleLineText 
 {
     public static void main(String[] args)
