@@ -1,3 +1,4 @@
+// Program to return area of square for the user given side value.
 import java.util.Scanner;
 public class SquareArea 
 {
